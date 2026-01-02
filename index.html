@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Learning Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-card">
+
+  <h1 id="video-title"></h1>
+
+  <div class="progress-container">
+    <div id="progress-bar"></div>
+  </div>
+
+  <div class="score-bar">
+    Question <span id="q-num">1</span>/<span id="total-q">5</span>
+    • Score: <span id="score">0</span>
+  </div>
+
+  <h2 id="question"></h2>
+  <div id="options"></div>
+
+  <button id="next-btn" disabled>Next</button>
+
+  <div id="end-screen" class="hidden">
+    <h2 id="end-message"></h2>
+    <p id="final-score"></p>
+    <button id="retry-btn">Try Again</button>
+    <button id="exit-btn">Return to Learning Site</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
