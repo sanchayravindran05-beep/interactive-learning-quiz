@@ -1,5 +1,5 @@
-// 🔗 CHANGE THIS TO YOUR GOOGLE SITES LINK
-const GOOGLE_SITES_URL = "https://sites.google.com/view/tcs-sulam-occ11t3/references";
+// 🔗 CHANGE THIS TO YOUR GOOGLE SITES L
+const GOOGLE_SITES_URL = "https://sites.google.com/view/tcs-sulam-occ11t3/home";
 
 
 // 📚 QUIZZES — QUESTIONS & ANSWERS EXACTLY FROM PDFs
@@ -170,4 +170,5 @@ function finishQuiz() {
 
 retryBtn.onclick = () => location.reload();
 exitBtn.onclick = () => window.location.href = GOOGLE_SITES_URL;
+
 
